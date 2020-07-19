@@ -1,0 +1,15 @@
+const USER_ACTIONS = {
+  ADD_USER :'ADD_USER',
+  EDIT_USER : 'EDIT_USER',
+  DELETE_USER : 'DELETE_USER',
+}
+
+const TODO_ACTIONS = {
+  ADD_TODO: 'ADD_TODO',
+  EDIT_TODO: 'EDIT_TODO',
+  DELETE_TODO: 'DELETE_TODO',
+}
+
+export default {
+  ...USER_ACTIONS, ...TODO_ACTIONS
+}

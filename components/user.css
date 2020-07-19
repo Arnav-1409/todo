@@ -1,0 +1,15 @@
+.list {
+  text-align: left;
+}
+
+.text-button {
+  color: blue;
+  cursor: pointer;
+}
+
+.mg-r {
+  margin-right: 10px;
+}
+.mg-r-e {
+  margin-right: 100px;
+}
